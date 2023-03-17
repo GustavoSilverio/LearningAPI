@@ -7,7 +7,6 @@ namespace ApiCarros.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    // Link do video: https://www.youtube.com/watch?v=oPGhzIrYQXQ&list=TLPQMTYwMzIwMjPGbuQ8HTdsaA&index=5
     public class CarsController : ControllerBase
     {
         private readonly AppDbContext _context;
